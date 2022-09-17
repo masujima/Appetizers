@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F54A1A3B28CF9481009D589A /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54A1A3A28CF9481009D589A /* AppetizerListCell.swift */; };
 		F55CC3EC28D62497007C1FEA /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CC3EB28D62497007C1FEA /* AppetizerListViewModel.swift */; };
+		F55CC3EE28D62A6C007C1FEA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CC3ED28D62A6C007C1FEA /* Alert.swift */; };
 		F5A7BCA328CCAA2500B0412C /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A7BCA228CCAA2500B0412C /* AppetizersApp.swift */; };
 		F5A7BCA528CCAA2500B0412C /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A7BCA428CCAA2500B0412C /* AppetizerTabView.swift */; };
 		F5A7BCA728CCAA2600B0412C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A7BCA628CCAA2600B0412C /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F54A1A3A28CF9481009D589A /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		F55CC3EB28D62497007C1FEA /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		F55CC3ED28D62A6C007C1FEA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		F5A7BC9F28CCAA2500B0412C /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A7BCA228CCAA2500B0412C /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		F5A7BCA428CCAA2500B0412C /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				F54A1A3A28CF9481009D589A /* AppetizerListCell.swift */,
 				F5D3EB1428D4C689001F6C93 /* NetworkManager.swift */,
 				F5D3EB1628D4CA27001F6C93 /* APError.swift */,
+				F55CC3ED28D62A6C007C1FEA /* Alert.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				F5A7BCA528CCAA2500B0412C /* AppetizerTabView.swift in Sources */,
 				F5D3EB1528D4C689001F6C93 /* NetworkManager.swift in Sources */,
 				F5A7BCA328CCAA2500B0412C /* AppetizersApp.swift in Sources */,
+				F55CC3EE28D62A6C007C1FEA /* Alert.swift in Sources */,
 				F5A7BCB128CCAABC00B0412C /* AppetizerListView.swift in Sources */,
 				F5A7BCB528CCAAF300B0412C /* OrderView.swift in Sources */,
 			);
