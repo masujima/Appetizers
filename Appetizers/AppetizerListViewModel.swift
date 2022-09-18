@@ -16,7 +16,7 @@ final class AppetizerListViewModel: ObservableObject {
     func getAppetizers() {
         NetworkManager.shared.getAppetizers { result in
             DispatchQueue.main.async {
-                isLoading = false
+                self.isLoading = false
                 switch result {
                 case .success(let appetizers):
                     self.appetizers = appetizers
